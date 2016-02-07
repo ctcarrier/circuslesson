@@ -10,12 +10,15 @@ public class App {
     	MovingService runner = new RunService();
     	MovingService slitherer = new SlitherService();
     	
-        Animal rover = new Animal("dog", runner);
-        Animal fuzzy = new Animal("lion", runner);
+        Animal mouse = new Animal("mouse", runner);
+        Animal lion = new Animal("lion", runner);
 
-        Animal slippy = new Animal("snake", slitherer);
-        Animal slimey = new Animal("worm", slitherer);
+        Animal snake = new Animal("snake", slitherer);
+        Animal worm = new Animal("worm", slitherer);
 
-        rover.move(5, 5);
+        mouse.move(20, 20);
+        lion.move(30, 30);
+        snake.move(40, 40);
+        worm.move(50, 50);
     }
 }

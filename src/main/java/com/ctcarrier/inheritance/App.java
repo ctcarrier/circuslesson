@@ -7,12 +7,15 @@ public class App {
 
     public static void main(String[] args) {
 
-        Mouse rover = new Mouse();
-        Lion fuzzy = new Lion();
+        Mouse mouse = new Mouse();
+        Lion lion = new Lion();
 
-        Snake slippy = new Snake();
-        Worm slimey = new Worm();
+        Snake snake = new Snake();
+        Worm worm = new Worm();
 
-        rover.move(5, 5);
+        mouse.move(20, 20);
+        lion.move(30, 30);
+        snake.move(40, 40);
+        worm.move(50, 50);
     }
 }
